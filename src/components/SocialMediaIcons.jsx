@@ -10,14 +10,14 @@ const SocialMediaIcons = () => {
             >
                 <img alt="linkedin-link" src="../assets/linkedin.png" />
             </a>
-            <a
+            {/* <a
                 className="hover:opacity-50 transition duration-500"
                 href="https://www.twitter.com"
                 target="_blank"
                 rel="noreferrer"
             >
                 <img alt="twitter-link" src="../assets/twitter.png" />
-            </a>
+            </a> */}
             <a
                 className="hover:opacity-50 transition duration-500"
                 href="https://www.facebook.com"
@@ -34,6 +34,8 @@ const SocialMediaIcons = () => {
             >
                 <img alt="instagram-link" src="../assets/instagram.png" />
             </a>
+
+            
 
         </div>
     )
