@@ -29,13 +29,13 @@ const SocialMediaIconsBlack = () => {
             >
                 <img alt="instagram-link" src="../assets/instagram-black.png" />
             </a>
-            <a
+            {/* <a
                 className="hover:opacity-50 transition duration-500"
                 href="home"
                 rel="noreferrer"
             >
                 <img alt="instagram-link" src="../assets/home.png" />
-            </a>
+            </a> */}
           
         </div>
     )
