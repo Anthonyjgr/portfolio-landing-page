@@ -1,23 +1,5 @@
-import { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import useMediaQuery from "../hooks/useMediaQuery";
 
-const Link = ({ page, selectedPage, setSelectedPage }) => {
-    const lowerCasePage = page.toLowerCase();
-    return (
-        <AnchorLink
-            className={`${selectedPage === lowerCasePage ? "text-blue" : ""
-                } hover:text-blue transition duration-500`}
-            href={`#${lowerCasePage}`}
-            onClick={() => setSelectedPage(lowerCasePage)}
-        >
-            {page}
-        </AnchorLink>
-    );
-};
-
-
-const SocialMediaIconsBlack = ({ page, selectedPage, setSelectedPage }) => {
+const SocialMediaIconsBlack = () => {
 
    
     return (
@@ -54,14 +36,7 @@ const SocialMediaIconsBlack = ({ page, selectedPage, setSelectedPage }) => {
             >
                 <img alt="instagram-link" src="../assets/home.png" />
             </a>
-            <Link
-                            page="home"
-                            selectedPage={selectedPage}
-                            setSelectedPage={setSelectedPage}
-
-                        />
-
-
+          
         </div>
     )
 }
