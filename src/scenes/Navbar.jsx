@@ -67,7 +67,7 @@ const Narbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* MOBILE MENU POPUP */}
         {!isAboveSmallScrees && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+          <div className="fixed right-0 bottom-0 h-full bg-[#e0d209] w-[300px]">
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">
               <button onClick={() => setisMenuToggled(!isMenuToggled)}>
@@ -75,7 +75,7 @@ const Narbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               </button>
             </div>
             {/* MENU ITEMS */}
-            <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
+            <div className="flex flex-col gap-10 ml-[33%] text-2xl text-[#000000]">
               <Link
                 page="Home"
                 selectedPage={selectedPage}
@@ -91,11 +91,11 @@ const Narbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <Link
+              {/* <Link
                 page="Testimonials"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
-              />
+              /> */}
               <Link
                 page="Contact"
                 selectedPage={selectedPage}
