@@ -17,7 +17,6 @@
   flex-direction: column;
   width: 14%;
   height: 100%;
-  /* border: 1px solid white; */
 }
 
 .skillsContainer ul {
@@ -32,7 +31,6 @@
 
 .skillsContainer li {
   padding: 10px;
-  /* border-bottom: 1px solid #ccc; */
   flex-basis: 100%;
   font-weight: bolder;
   font-size: 15px;
@@ -50,8 +48,6 @@
   flex-direction: row;
   justify-content: space-between;
   flex-basis: 100%;
-  /* padding-top: 8px;
-  padding-bottom: 8px; */
   padding-right: 5px;
   background-color: #393200;
   border-top: 8px solid rgb(40, 40, 40);
@@ -71,13 +67,9 @@
   border-right: 4px solid #e0d209;
 }
 
-/* @keyframes progressAnimation {
-  0% {
-    width: 0;
-  }
-} */
 
-/* Media queries para dispositivos móviles */
+
+/* Media queries for mobiles devices */
 @media only screen and (max-width: 436px) {
   .mainContainer {
     padding: 5px;
@@ -144,7 +136,7 @@
   }
 }
 
-/* Media queries para tablets */
+/* Media queries for tablets */
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
   .mainContainer {
     padding: 5px;

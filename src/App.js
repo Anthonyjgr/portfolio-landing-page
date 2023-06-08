@@ -6,7 +6,7 @@ import MySkills from "./scenes/MySkills"
 import Projects from "./scenes/Projects"
 import Contact from "./scenes/Contact"
 import Footer from "./scenes/Footer"
-import Testimonials from "./scenes/Testimonials"
+// import Testimonials from "./scenes/Testimonials"
 import useMediaQuery from "./hooks/useMediaQuery.jsx"
 import Navbar from "./scenes/Navbar.jsx"
 
@@ -47,10 +47,10 @@ function App() {
       <div className="w-5/6 mx-auto">
         <Projects />
       </div>
-      <LineGradient />
+      {/* <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <Testimonials />
-      </div>
+      </div> */}
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <Contact />

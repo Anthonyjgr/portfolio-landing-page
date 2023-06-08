@@ -15,19 +15,18 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, description,link }) => {
+const Project = ({ title, description,link, imagePath }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title;
 
   return (
     <motion.div variants={projectVariant} className="relative">
       <a href={link} target="blank">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
+        <p className="text-2xl font-sans font-bold text-[#181088]">{title}</p>
         <p className="mt-7">{description}</p>
       </div>
-      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} className="px-2 py-2"/>
+      <img src={`../assets/${imagePath}.png`} alt={imagePath} className="px-2 py-2"/>
       </a>
     </motion.div>
   );
@@ -56,7 +55,7 @@ const Projects = () => {
             <LineGradient width="w-2/3" />
           </div>
         </div>
-        <p className="mt-10 mb-10">Here some of my Projects</p>
+        <p className="mt-10 mb-10">Here some of my projects and collaborations</p>
       </motion.div>
 
       {/* PROJECTS */}
@@ -68,17 +67,36 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <Project title="complex" 
+          <Project title="Complex Gym SPA" 
+          imagePath="complex"
           description="This is a web aplication with a dashboard Admin"
           link="https://pf-complex-gym-henry.vercel.app/"
           />
-          <Project title="promptopia" 
+          <Project title="Save your AI prompts" 
+          imagePath="promptopia"
           description="Here you can log in whit google and save and share your propmts for your favotires IA"
           link="https://next-js-fullstack-web-762g084tz-anthonyjgr.vercel.app/"
           />
-          <Project title="complex" 
-          description="This is a web aplication with a dashboard Admin"
-          link="https://pf-complex-gym-henry.vercel.app/"
+             <Project title="404 3D Component" 
+          imagePath="404"
+          description="What would happen if we do something more interesting when the server failed?"
+          link="https://my.spline.design/untitled-6821fac5a773b2fd66d0bf763ae36c13/ "
+          />
+       
+          <Project title="Bubble Form" 
+          imagePath="bubbleLogin"
+          description="Forms could be more interesting as well with 3D implementations"
+          link="https://delicate-sprinkles-797192.netlify.app/"
+          />
+          <Project title="3D Mini Gym" 
+          imagePath="complex3D"
+          description="This is an amazing 3D model on a web. Could you imagine what kind of things we could do with this kind of technology?"
+          link="https://my.spline.design/miniroomartcopy-8c351e51a3dd05b5f20dc776d42c6bd1/"
+          />
+          <Project title="Just a simple HTML & CSS page" 
+          imagePath="simpleHtml"
+          description="A simple HTML and CSS web site, but it isn't just basic, it is mobile responsive as well"
+          link="https://tangerine-starburst-650db4.netlify.app/"
           />
         </motion.div>
       </div>
