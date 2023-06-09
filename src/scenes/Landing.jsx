@@ -2,7 +2,8 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Resume from "../assets/CV-English-Anthony-pdf.pdf";
+import EnglishResume from "../assets/CV-EN-Anthony-G.pdf";
+import SpanishResume from "../assets/CV-ES-Anthony-G.pdf";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLargeScreens = useMediaQuery("(min-width: 1060px)");
@@ -108,18 +109,33 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <a href={Resume} download="CV-English-Anthony-pdf">
-            <img
-              src="../assets/icons8-cv-96.png"
-              className="w-20 mb-[-45px]"
-              alt="cv-icon"
-            />
-          </a>
+          {/* CV English */}
+          <div className="flex flex-col h-30 w-28 ">
+            <a href={EnglishResume} download="CV-EN-Anthony-G.pdf">
+              <img
+                src="../assets/icons8-cv-96.png"
+                className="w-20 mb-[-45px]"
+                alt="cv-icon"
+              />
+            </a>
+            <p className="font-opensans text-xl font-black mt-12">English</p>
+          </div>
+          {/* CV Spanish */}
+          <div className="flex flex-col w-40 ">
+            <a href={SpanishResume} download="CV-ES-Anthony-G.pdf">
+              <img
+                src="../assets/icons8-cv-96.png"
+                className="w-20 mb-[-45px]"
+                alt="cv-icon"
+              />
+            </a>
+            <p className="font-opensans text-xl font-black mt-12">Español</p>
+          </div>
         </motion.div>
 
         {/* Social Media Icons */}
         <motion.div
-          className="flex mt-5 justify-center md:justify-start"
+          className="flex justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
