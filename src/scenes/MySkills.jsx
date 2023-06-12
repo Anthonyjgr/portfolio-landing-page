@@ -5,7 +5,7 @@ const MySkills = () => {
   return (
     <section id="skills" className="pb-24">
       {/* HEADER AND IMAGE SECTION */}
-      <div className="md:flex md:flex-col md:justify-between md:gap-16  ">
+      <div className="md:flex md:flex-col md:justify-between md:gap-16 ">
         <motion.div
           className="md:w-1"
           initial="hidden"

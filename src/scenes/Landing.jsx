@@ -22,7 +22,7 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px]  md:max-w-[450px] border-4 border-blue"
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px]  md:max-w-[450px] border-2 border-gray-300"
               src="../assets/Anthony_Color.jpg"
             />
           </div>
