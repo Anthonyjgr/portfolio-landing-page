@@ -2,7 +2,7 @@ import SocialMediaIconsBlack from "../components/SocialMediaIconsBlack";
 
 const Footer = () => {
     return (
-        <footer className="h-50 bg-red ">
+        <footer className="h-50 bg-[#cdcdcd] ">
             <div className="w-5/6 mx-auto py-6">
                 <SocialMediaIconsBlack />
                 <div className="md:flex justify-center md:justify-between text-center ">

@@ -59,7 +59,7 @@ const Landing = ({ setSelectedPage }) => {
             <p className="mt-10 mb-7 text-[18px] text-justify md:text-start leading-relaxed ">
               Hello! I'm a full-stack developer 👨‍💻 with experience on 3D web applications.
               🚀 My focus in development is creating applications that are efficient,
-              scalable, and easy to use. I love learning new technologies and am always
+              scalable, and easy to use. I love learning new technologies and I'm always
               looking for ways to improve my skills and knowledge in the field of web and
               (very soon) mobile development.
             </p>

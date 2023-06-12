@@ -17,7 +17,7 @@ const MySkills = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl mb-4 mt-32">
+          <p className="font-opensans font-black text-4xl mb-4 mt-32">
             MY <span className="text-red">SKILLS</span>
           </p>
         </motion.div>

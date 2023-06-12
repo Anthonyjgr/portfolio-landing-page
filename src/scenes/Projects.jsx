@@ -48,7 +48,7 @@ const Projects = () => {
         }}
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
+          <p className="font-opensans font-black text-4xl">
             <span className="text-red">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
