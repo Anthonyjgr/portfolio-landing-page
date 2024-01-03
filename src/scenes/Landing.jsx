@@ -57,11 +57,13 @@ const Landing = ({ setSelectedPage }) => {
               Guzmán
             </span>
             <p className="mt-10 mb-7 text-[18px] text-justify md:text-start leading-relaxed ">
-              Hello! I'm a full-stack developer 👨‍💻 with experience on 3D web applications.
-              🚀 My focus in development is creating applications that are efficient,
-              scalable, and easy to use. I love learning new technologies and I'm always
-              looking for ways to improve my skills and knowledge in the field of web and
-              (very soon) mobile development.
+              Greetings! 👋 I'm a versatile professional, transitioning seamlessly from a
+              seasoned full-stack developer 👨‍💻 with expertise in 3D web applications 🚀 to
+              a dynamic Project Manager. My development philosophy centers around crafting
+              applications that embody efficiency, scalability, and user-friendliness. I
+              thrive on the challenge of staying abreast of the latest technologies,
+              always seeking opportunities to enhance my skills and knowledge in both web
+              and, soon, mobile development.
             </p>
           </span>
         </motion.div>
