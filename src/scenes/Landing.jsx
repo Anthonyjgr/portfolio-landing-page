@@ -56,7 +56,7 @@ const Landing = ({ setSelectedPage }) => {
             >
               Guzmán
             </span>
-            <p className="mt-10 mb-7 text-[18px] text-justify md:text-start leading-relaxed ">
+            <p className="mt-10 mb-7 text-[18px] text-justify leading-relaxed ">
               Greetings! 👋 I'm a versatile professional, transitioning seamlessly from a
               seasoned full-stack developer 👨‍💻 with expertise in 3D web applications 🚀 to
               a dynamic Project Manager. My development philosophy centers around crafting
@@ -101,7 +101,7 @@ const Landing = ({ setSelectedPage }) => {
 
         {/* Donwload resume */}
         <motion.div
-          className="flex mt-5 justify-center md:justify-start"
+          className="flex mt-5 justify-center md:justify-start gap-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -112,7 +112,7 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           {/* CV English */}
-          <div className="flex flex-col h-30 w-28 ">
+          <div className="flex flex-col">
             <a href={EnglishResume} download="CV-EN-Anthony-G.pdf">
               <img
                 src="../assets/icons8-cv-96.png"
@@ -120,10 +120,10 @@ const Landing = ({ setSelectedPage }) => {
                 alt="cv-icon"
               />
             </a>
-            <p className="font-opensans text-xl font-black mt-12">English</p>
+            <p className="font-opensans text-xl font-black mt-12 text-center">English</p>
           </div>
           {/* CV Spanish */}
-          <div className="flex flex-col w-40 ">
+          <div className="flex flex-col">
             <a href={SpanishResume} download="CV-ES-Anthony-G.pdf">
               <img
                 src="../assets/icons8-cv-96.png"
@@ -131,7 +131,7 @@ const Landing = ({ setSelectedPage }) => {
                 alt="cv-icon"
               />
             </a>
-            <p className="font-opensans text-xl font-black mt-12">Español</p>
+            <p className="font-opensans text-xl font-black mt-12 text-center">Español</p>
           </div>
         </motion.div>
 
