@@ -67,6 +67,11 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
+          <Project title="Wirnet iStation Landing" 
+          imagePath="wirnet_istation"
+          description="Responsive Landing Page with Stripe button"
+          link="https://kerlink.senzary.com/"
+          />
           <Project title="Complex Gym SPA" 
           imagePath="complex"
           description="This is a web aplication with a dashboard Admin"
@@ -83,11 +88,6 @@ const Projects = () => {
           link="https://my.spline.design/untitled-6821fac5a773b2fd66d0bf763ae36c13/ "
           />
        
-          <Project title="Bubble Form" 
-          imagePath="bubbleLogin"
-          description="Forms could be more interesting as well with 3D implementations"
-          link="https://delicate-sprinkles-797192.netlify.app/"
-          />
           <Project title="3D Mini Gym" 
           imagePath="complex3D"
           description="This is an amazing 3D model on a web. Could you imagine what kind of things we could do with this kind of technology?"
