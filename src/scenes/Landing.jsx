@@ -19,18 +19,21 @@ const Landing = ({ setSelectedPage }) => {
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 
                     before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-yellow before:z-[-1]"
+                  
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px]  md:max-w-[450px] border-2 border-gray-300"
-              src="../assets/Anthony_Color.jpg"
+              className="hover:filter  hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px]  md:max-w-[450px] border-2 border-gray-300"
+              src="../assets/profile_photo.jpeg"
+              style={{ filter: 'grayscale(0%)' }}
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="../assets/Anthony_Color.jpg"
+            className="hover:filter  hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] "
+            src="../assets/profile_photo.jpeg"
+            style={{ filter: 'grayscale(0%)' }}
           />
         )}
       </div>
@@ -57,8 +60,8 @@ const Landing = ({ setSelectedPage }) => {
               Guzmán
             </span>
             <p className="mt-10 mb-7 text-[18px] text-justify leading-relaxed ">
-              Greetings! 👋 I'm a versatile professional, transitioning seamlessly from a
-              seasoned full-stack developer 👨‍💻 with expertise in 3D web applications 🚀 to
+              Greetings! 👋 I'm a versatile professional, transitioning seamlessly from
+              seasoned full-stack developer 👨‍💻 with expertise in 3D web applications and UX/IU 🚀 to
               a dynamic Project Manager. My development philosophy centers around crafting
               applications that embody efficiency, scalability, and user-friendliness. I
               thrive on the challenge of staying abreast of the latest technologies,
