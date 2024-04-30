@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import DotGroup from "./scenes/DotGroup"
-import LineGradient from "./components/LineGradient"
-import Landing from "./scenes/Landing"
-import MySkills from "./scenes/MySkills"
-import Projects from "./scenes/Projects"
-import Contact from "./scenes/Contact"
-import Footer from "./scenes/Footer"
+import DotGroup from "./scenes/DotGroup";
+import LineGradient from "./components/LineGradient";
+import Landing from "./scenes/Landing";
+import MySkills from "./scenes/MySkills";
+import Projects from "./scenes/Projects";
+import Contact from "./scenes/Contact";
+import Footer from "./scenes/Footer";
 // import Testimonials from "./scenes/Testimonials"
-import useMediaQuery from "./hooks/useMediaQuery.jsx"
-import Navbar from "./scenes/Navbar.jsx"
+import useMediaQuery from "./hooks/useMediaQuery.jsx";
+import Navbar from "./scenes/Navbar.jsx";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -19,10 +19,10 @@ function App() {
     const handleScroll = () => {
       if (window.scrollY === 0) setIsTopOfPage(true);
       if (window.scrollY !== 0) setIsTopOfPage(false);
-    }
+    };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [])
+  }, []);
   return (
     <div className="app bg-deep-blue">
       <Navbar
@@ -30,21 +30,18 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
         {isAboveMediaScreens && (
-          <DotGroup
-            selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage}
-          />
+          <DotGroup selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         )}
-        <Landing selectedPage={selectedPage} />
+          <Landing selectedPage={selectedPage} />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
         <MySkills />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto">
+      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
         <Projects />
       </div>
       {/* <LineGradient />
@@ -52,16 +49,12 @@ function App() {
         <Testimonials />
       </div> */}
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
         <Contact />
       </div>
-        <Footer />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
-
-
-

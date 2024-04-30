@@ -24,7 +24,7 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter  hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px]  md:max-w-[450px] border-2 border-gray-300"
-              src="../assets/profile_photo.jpeg"
+              src="../assets/Anthony_Color.jpg"
               style={{ filter: 'grayscale(0%)' }}
             />
           </div>
@@ -32,7 +32,7 @@ const Landing = ({ setSelectedPage }) => {
           <img
             alt="profile"
             className="hover:filter  hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] "
-            src="../assets/profile_photo.jpeg"
+            src="../assets/Anthony_Color.jpg"
             style={{ filter: 'grayscale(0%)' }}
           />
         )}

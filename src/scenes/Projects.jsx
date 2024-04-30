@@ -34,7 +34,7 @@ const Project = ({ title, description,link, imagePath }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="projects" className="flex flex-col h-full pt-48 pb-48 items-center justify-center">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"

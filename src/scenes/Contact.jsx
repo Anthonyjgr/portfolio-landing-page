@@ -16,6 +16,7 @@ const Contact = () => {
     }
   };
   return (
+    <div className="h-full flex items-center justify-center">
     <section id="contact" className="contact py-48">
       {/* HEADINGS */}
       <motion.div
@@ -134,6 +135,7 @@ const Contact = () => {
         </motion.div>
       </div>
     </section>
+    </div>
   );
 };
 

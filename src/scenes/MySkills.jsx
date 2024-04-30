@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const MySkills = () => {
   return (
-    <section id="skills" className="pb-24">
+    <section id="skills" className="flex pb-24 h-full justify-center items-center">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:flex-col md:justify-between md:gap-16 ">
         <motion.div
