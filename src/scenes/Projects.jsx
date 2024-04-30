@@ -26,7 +26,7 @@ const Project = ({ title, description,link, imagePath }) => {
         <p className="text-2xl font-sans font-bold text-[#181088]">{title}</p>
         <p className="mt-7">{description}</p>
       </div>
-      <img src={`../assets/${imagePath}.png`} alt={imagePath} className="px-2 py-2"/>
+      <img src={`../assets/${imagePath}.png`} alt={imagePath} className="px-2 py-2 w-full h-full object-cover"/>
       </a>
     </motion.div>
   );
@@ -93,10 +93,10 @@ const Projects = () => {
           description="This is an amazing 3D model on a web. Could you imagine what kind of things we could do with this kind of technology?"
           link="https://my.spline.design/miniroomartcopy-8c351e51a3dd05b5f20dc776d42c6bd1/"
           />
-          <Project title="Just a simple HTML & CSS page" 
-          imagePath="simpleHtml"
-          description="A simple HTML and CSS web site, but it isn't just basic, it is mobile responsive as well"
-          link="https://tangerine-starburst-650db4.netlify.app/"
+          <Project title="Soy Empe Personal brand website" 
+          imagePath="soy_empe_web"
+          description="This is an personal brand website, with a well defined user interface and modern responsiveness capabilities. (still in progress)."
+          link="https://soy-empe-web.vercel.app/"
           />
         </motion.div>
       </div>
