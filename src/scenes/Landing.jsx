@@ -11,7 +11,7 @@ const Landing = ({ setSelectedPage }) => {
   return (
     <section
       id="home"
-      className="md:flex md:justify-between md:items-center gap-16 md:h-full  py-10"
+      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
     >
       {/* IMAGE SECTION */}
       <div className="md:order-2 justify-center basis-3/5 z-10 mt-16 md:mt-32 flex ">
@@ -59,7 +59,7 @@ const Landing = ({ setSelectedPage }) => {
             >
               Guzmán
             </span>
-            <p className="mt-10 mb-7 text-[18px] text-justify leading-relaxed ">
+            <p className="mt-10 mb-7 xs:text-[16px] md:text-[18px] text-justify leading-relaxed ">
               Greetings! 👋 I'm a versatile professional, transitioning seamlessly from
               seasoned full-stack developer 👨‍💻 with expertise in 3D web applications and UX/IU 🚀 to
               a dynamic Project Manager. My development philosophy centers around crafting

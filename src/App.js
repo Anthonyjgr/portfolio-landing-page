@@ -9,6 +9,7 @@ import Footer from "./scenes/Footer";
 // import Testimonials from "./scenes/Testimonials"
 import useMediaQuery from "./hooks/useMediaQuery.jsx";
 import Navbar from "./scenes/Navbar.jsx";
+import TechStack from "./components/TechStack.jsx";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -30,18 +31,18 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
+      <div className="w-5/6 mx-auto md:h-full md:max-h-[1200px] max-w-[1440px]">
         {isAboveMediaScreens && (
           <DotGroup selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         )}
-          <Landing selectedPage={selectedPage} />
+        <Landing selectedPage={selectedPage} />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
+      <div className="w-5/6 mx-auto md:h-full max-h-[1200px] max-w-[1440px]">
         <MySkills />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
+      <div className="w-5/6 mx-auto md:h-full md:max-h-[1200px] max-w-[1440px]">
         <Projects />
       </div>
       {/* <LineGradient />
@@ -49,7 +50,7 @@ function App() {
         <Testimonials />
       </div> */}
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full max-h-[1400px] max-w-[1440px]">
+      <div className="w-5/6 mx-auto md:h-full max-h-[1200px] max-w-[1440px]">
         <Contact />
       </div>
       <Footer />

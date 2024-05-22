@@ -1,5 +1,6 @@
 import SkillsBar from "../components/SkillsBar";
 import { motion } from "framer-motion";
+import TechStack from "../components/TechStack";
 
 const MySkills = () => {
   return (
@@ -21,7 +22,8 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
         </motion.div>
-          <SkillsBar />
+          {/* <SkillsBar /> */}
+          <TechStack />
       </div>
     </section>
   );
