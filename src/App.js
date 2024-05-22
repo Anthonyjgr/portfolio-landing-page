@@ -38,11 +38,11 @@ function App() {
         <Landing selectedPage={selectedPage} />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full max-h-[1200px] max-w-[1440px]">
+      <div className="w-5/6 mx-auto md:h-full md:max-h-[1200px] max-w-[1440px]">
         <MySkills />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full md:max-h-[1200px] max-w-[1440px]">
+      <div className="w-5/6 mx-auto  md:max-h-[1440px] max-w-[1440px]">
         <Projects />
       </div>
       {/* <LineGradient />

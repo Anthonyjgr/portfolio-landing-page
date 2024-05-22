@@ -91,7 +91,7 @@ const Projects = () => {
             title="Color Palette Generator for Tailwind CSS"
             imagePath="color_palette"
             description="Struggling to find the perfect color palette for your next design project? Look no further! This innovative tool streamlines the entire process, allowing you to generate color palettes, export the code to tailwind, copy color code and save your favoirites palettes."
-            link="https://my.spline.design/untitled-6821fac5a773b2fd66d0bf763ae36c13/ "
+            link="https://color-palette-generator-navy.vercel.app/"
           />
           <Project
             title="Soy Empe Personal brand website"

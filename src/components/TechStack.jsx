@@ -19,6 +19,7 @@ import next from "../assets/Next.svg";
 import sequalize from "../assets/Sequelize.svg";
 import passport from "../assets/passport.svg";
 import max from "../assets/max.svg";
+import figma from "../assets/Figma.svg";
 
 const TechStack = () => {
   const technologies = [
@@ -31,6 +32,7 @@ const TechStack = () => {
     { name: "Next.js", src: next },
     { name: "Three.js", src: three },
     { name: "Spline", src: spline },
+    { name: "Figma", src: figma },
     { name: "3DS Max", src: max },
     { name: "Redux", src: redux },
     { name: "PostgreSQL", src: postgres },
