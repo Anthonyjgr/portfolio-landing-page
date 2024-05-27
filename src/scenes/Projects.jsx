@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 
 const container = {

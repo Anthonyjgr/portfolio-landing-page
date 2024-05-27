@@ -9,7 +9,6 @@ import Footer from "./scenes/Footer";
 // import Testimonials from "./scenes/Testimonials"
 import useMediaQuery from "./hooks/useMediaQuery.jsx";
 import Navbar from "./scenes/Navbar.jsx";
-import TechStack from "./components/TechStack.jsx";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");

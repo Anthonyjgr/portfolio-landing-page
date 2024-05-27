@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import javascript from "../assets/JavaScript.svg";
 import rect from "../assets/React.svg";
 import html from "../assets/HTML5.svg";

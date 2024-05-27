@@ -1,4 +1,3 @@
-import SkillsBar from "../components/SkillsBar";
 import { motion } from "framer-motion";
 import TechStack from "../components/TechStack";
 
