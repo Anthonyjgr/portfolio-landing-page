@@ -90,7 +90,7 @@ const Projects = () => {
           <Project
             title="Color Palette Generator for Tailwind CSS"
             imagePath="color_palette"
-            description="Struggling to find the perfect color palette for your next design project? Look no further! This innovative tool streamlines the entire process, allowing you to generate color palettes, export the code to tailwind, copy color code and save your favoirites palettes."
+            description="Struggling to find the perfect color palette for your next design project? Look no further! This innovative tool streamlines the entire process, allowing you to generate color palettes, export the code to tailwind, copy color code and save your favourites palettes."
             link="https://color-palette-generator-navy.vercel.app/"
           />
           <Project
