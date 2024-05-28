@@ -59,6 +59,9 @@ const Unrealrender = () => {
           To move around the scene use de KEYS "W , A , S , D" and move the MOUSE to see
           around
         </span>
+        <span className="text-gray-500 text-sm">
+          Note: This project was compiled for Windows OS therefore it works only on Windows OS.
+        </span>
       </div>
     </div>
   );
