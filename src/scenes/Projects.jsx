@@ -93,6 +93,12 @@ const Projects = () => {
             link="https://color-palette-generator-navy.vercel.app/"
           />
           <Project
+            title="Chikiicecream corporative website and contact form"
+            imagePath="chiki"
+            description="This project was designed to be clean, modern, and optimized for good SEO. It includes a backend that handle: sending confirmation emails to clients, forwarding request information to the sales department, and receiving data from forms. The design prioritizes user experience and visually appealing elements. The backend ensures efficient management of client interactions, enhancing overall business efficiency."
+            link="https://www.chikiicecream.com/"
+          />
+          <Project
             title="Soy Empe Personal brand website"
             imagePath="soy_empe_web"
             description="This is an personal brand website, with a well defined user interface and modern responsiveness capabilities. (still in progress)."
