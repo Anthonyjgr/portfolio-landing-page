@@ -18,16 +18,17 @@ const projectVariant = {
 };
 
 const Project = ({ title, description, link, imagePath }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-1 text-deep-blue`;
+  const overlayStyles = `absolute h-fit min-h-full w-full opacity-0 hover:opacity-100 transition duration-500
+    bg-white z-30 flex flex-col justify-center items-center text-center p-4 text-deep-blue border-4 border-black`;
+  // const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+  //   bg-grey z-30 flex flex-col justify-center items-center text-center p-4 text-deep-blue`;
 
-    
   return (
     <motion.div variants={projectVariant} className="relative">
       <a href={link ? link : ""} target="blank">
         <div className={overlayStyles}>
-          <p className="text-2xl font-sans font-bold text-[#181088]">{title}</p>
-          <p className="mt-7">{description}</p>
+          <p className="text-xl font-sans font-bold text-[#181088]">{title}</p>
+          <p className="mt-2">{description}</p>
         </div>
         <img
           src={`../assets/${imagePath}.png`}
@@ -73,8 +74,8 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3 gap-6"
-          // className="sm:grid sm:grid-cols-3 gap-6"
+          className="sm:grid sm:grid-cols-3 gap-4"
+          // className="flex flex-row flex-wrap items-center justify-center "
           variants={container}
           initial="hidden"
           whileInView="visible"
