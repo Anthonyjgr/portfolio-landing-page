@@ -83,6 +83,24 @@ const Projects = () => {
         >
           <Project
             title="T-Shirts Customizer"
+            imagePath="kasher_red"
+            description="Corporate website of Kasherservices, a Chilean company specialized in the installation, automation and maintenance of industrial air conditioning and refrigeration systems."
+            link="https://www.kasherservices.cl/"
+          />
+          <Project
+            title="Chikiicecream corporative website and contact form"
+            imagePath="chiki"
+            description="This project was designed to be clean, modern, and optimized for good SEO. It includes a backend that handle: sending confirmation emails to clients, forwarding request information to the sales department, and receiving data from forms. The design prioritizes user experience and visually appealing elements. The backend ensures efficient management of client interactions, enhancing overall business efficiency."
+            link="https://www.chikiicecream.com/"
+          />
+          <Project
+            title="T-Shirts Customizer"
+            imagePath="crm_red"
+            description="This CRM system manages user roles and processes customer requests from www.chikiicecream.com, as well as those created directly within the CRM. This integration enhances service efficiency and boosts revenue, supporting Chiki Ice Cream in scaling operations and increasing profitability."
+            link="https://crm.chikiicecream.com/login"
+          />
+          <Project
+            title="T-Shirts Customizer"
             imagePath="shirts"
             description="An amazing 3D Shirts Customizer"
             link="https://3d-shirt-customizer-mu.vercel.app/"
@@ -92,12 +110,6 @@ const Projects = () => {
             imagePath="color_palette"
             description="Struggling to find the perfect color palette for your next design project? Look no further! This innovative tool streamlines the entire process, allowing you to generate color palettes, export the code to tailwind, copy color code and save your favourites palettes."
             link="https://color-palette-generator-navy.vercel.app/"
-          />
-          <Project
-            title="Chikiicecream corporative website and contact form"
-            imagePath="chiki"
-            description="This project was designed to be clean, modern, and optimized for good SEO. It includes a backend that handle: sending confirmation emails to clients, forwarding request information to the sales department, and receiving data from forms. The design prioritizes user experience and visually appealing elements. The backend ensures efficient management of client interactions, enhancing overall business efficiency."
-            link="https://www.chikiicecream.com/"
           />
           <Project
             title="Soy Empe Personal brand website"
