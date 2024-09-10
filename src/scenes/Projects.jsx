@@ -82,7 +82,7 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <Project
-            title="T-Shirts Customizer"
+            title="Kasherservices Corporate website"
             imagePath="kasher_red"
             description="Corporate website of Kasherservices, a Chilean company specialized in the installation, automation and maintenance of industrial air conditioning and refrigeration systems."
             link="https://www.kasherservices.cl/"
@@ -94,7 +94,7 @@ const Projects = () => {
             link="https://www.chikiicecream.com/"
           />
           <Project
-            title="T-Shirts Customizer"
+            title="Chiki icecream CRM"
             imagePath="crm_red"
             description="This CRM system manages user roles and processes customer requests from www.chikiicecream.com, as well as those created directly within the CRM. This integration enhances service efficiency and boosts revenue, supporting Chiki Ice Cream in scaling operations and increasing profitability."
             link="https://crm.chikiicecream.com/login"
