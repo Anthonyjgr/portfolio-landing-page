@@ -82,6 +82,12 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <Project
+            title="Eventbuy Corporate website"
+            imagePath="eventbuy"
+            description="In this project, I handled every aspect from understanding the business and creating content to UX/UI design, full development, deployment, and professional email setup. This comprehensive approach ensures a seamless and fully integrated solution tailored to the client's needs."
+            link="https://www.eventbuy.cl"
+          />
+          <Project
             title="Kasherservices Corporate website"
             imagePath="kasher_red"
             description="Corporate website of Kasherservices, a Chilean company specialized in the installation, automation and maintenance of industrial air conditioning and refrigeration systems."
