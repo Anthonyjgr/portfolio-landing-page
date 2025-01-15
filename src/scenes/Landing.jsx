@@ -2,8 +2,8 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import EnglishResume from "../assets/ANTHONYG-DEV-EN-CV.pdf";
-import SpanishResume from "../assets/ANTHONYG-DEV-ES-CV.pdf";
+import EnglishResume from "../assets/CV-EN-Anthony-G.pdf";
+import SpanishResume from "../assets/CV-ES-Anthony-G.pdf";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLargeScreens = useMediaQuery("(min-width: 1060px)");
