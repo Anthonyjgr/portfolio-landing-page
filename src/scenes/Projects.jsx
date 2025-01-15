@@ -82,6 +82,12 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <Project
+            title="JDigital Group Solutions"
+            imagePath="jd"
+            description="Branding | UX/UI Design | Development | Integrations | Deployment | Email setup | I cover all the stages in this project"
+            link="https://www.jdigitalgroupsolutions.com"
+          />
+          <Project
             title="Eventbuy Corporate website"
             imagePath="eventbuy"
             description="In this project, I handled every aspect from understanding the business and creating content to UX/UI design, full development, deployment, and professional email setup. This comprehensive approach ensures a seamless and fully integrated solution tailored to the client's needs."
@@ -106,6 +112,12 @@ const Projects = () => {
             link="https://crm.chikiicecream.com/login"
           />
           <Project
+            title="Elegant Suites"
+            imagePath="elegant"
+            description="Branding | UX/UI Design | Development | Integrations | Deployment | Email setup | I cover all the stages in this project "
+            link="https://elegant-suites.vercel.app"
+          />
+          <Project
             title="T-Shirts Customizer"
             imagePath="shirts"
             description="An amazing 3D Shirts Customizer"
@@ -123,25 +135,6 @@ const Projects = () => {
             description="This is an personal brand website, with a well defined user interface and modern responsiveness capabilities. (still in progress)."
             link="https://soy-empe-web.vercel.app/"
           />
-          <Project
-            title="Wirnet iStation Landing"
-            imagePath="wirnet_istation"
-            description="Responsive Landing transactional Page with Stripe"
-            link="https://kerlink.senzary.com/"
-          />
-          <Project
-            title="Senzary Corporative Page Modules"
-            imagePath="iot_modules"
-            description="IoT Corporative, clean and mother web design"
-            link="https://www.senzary.com/iotlogiq-modules"
-          />
-          <Project
-            title="Senzary Corporative Page Platform"
-            imagePath="iot_platform"
-            description="IoT Corporative, clean and mother web design"
-            link="https://www.senzary.com/iotlogiq-platform"
-          />
-
           <Project
             title="3D Mini Gym"
             imagePath="complex3D"
