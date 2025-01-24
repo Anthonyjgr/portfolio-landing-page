@@ -82,6 +82,12 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <Project
+            title="Reciandes"
+            imagePath="reciandes"
+            description="Branding | UX/UI Design | Development | Integrations | Deployment | Email setup | I cover all the stages in this project"
+            link="https://reciandes.com"
+          />
+          <Project
             title="JDigital Group Solutions"
             imagePath="jd"
             description="Branding | UX/UI Design | Development | Integrations | Deployment | Email setup | I cover all the stages in this project"

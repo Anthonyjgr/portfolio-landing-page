@@ -10,7 +10,7 @@ const Footer = () => {
                         ANTHONY GUZMÁN
                     </p>
                     <p className="font-opensans text-md text-deep-blue">
-                        ©2023 ANTHONY GUZMÁN. All Rights Reserved.
+                        ©2023 ANTHONY GUZMÁN & GRACIA DIGITAL. All Rights Reserved.
                     </p>
                 </div>
             </div>

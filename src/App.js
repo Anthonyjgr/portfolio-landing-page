@@ -49,9 +49,9 @@ function App() {
         <Testimonials />
       </div> */}
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full max-h-[1200px] max-w-[1440px]">
+      {/* <div className="w-5/6 mx-auto md:h-full max-h-[1200px] max-w-[1440px]">
         <Contact />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
