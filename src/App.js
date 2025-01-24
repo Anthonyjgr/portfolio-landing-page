@@ -4,7 +4,7 @@ import LineGradient from "./components/LineGradient";
 import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
 import Projects from "./scenes/Projects";
-import Contact from "./scenes/Contact";
+// import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 // import Testimonials from "./scenes/Testimonials"
 import useMediaQuery from "./hooks/useMediaQuery.jsx";
