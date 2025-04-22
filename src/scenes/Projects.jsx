@@ -31,7 +31,7 @@ const Project = ({ title, description, link, imagePath }) => {
           <p className="mt-2">{description}</p>
         </div>
         <img
-          src={`../assets/${imagePath}.png`}
+          src={`../assets/${imagePath}.webp`}
           alt={imagePath}
           className="px-2 py-2 w-full h-full object-cover"
         />

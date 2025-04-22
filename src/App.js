@@ -41,7 +41,7 @@ function App() {
         <MySkills />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto  md:max-h-[1840px] max-w-[1440px]">
+      <div className="w-5/6 mx-auto  max-w-[1440px]">
         <Projects />
       </div>
       {/* <LineGradient />
