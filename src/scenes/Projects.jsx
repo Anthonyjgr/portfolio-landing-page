@@ -82,6 +82,24 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <Project
+            title="Cabella"
+            imagePath="cabella"
+            description="Project Quotation | PM | UX/UI Design | Development | Deployment | I cover all the stages in this project"
+            link="https://www.cabellahair.com/"
+          />
+          <Project
+            title="Homecare Aid Services"
+            imagePath="homecare"
+            description="Project Quotation | PM | Branding | UX/UI Design | Development | Integrations | Deployment | Email setup | I cover all the stages in this project"
+            link="https://www.homecareaidservices.com/"
+          />
+          <Project
+            title="Mijo Things Foundation"
+            imagePath="mijo-foundation"
+            description="Project Quotation | PM | UX/UI Design | Development | Stripe Integrations | Deployment | Email setup | I cover all the stages in this project"
+            link="https://www.mijothingsfoundation.com/"
+          />
+          <Project
             title="Reciandes"
             imagePath="reciandes"
             description="Branding | UX/UI Design | Development | Integrations | Deployment | Email setup | I cover all the stages in this project"
